@@ -9,7 +9,7 @@ class Restbeast < Formula
 
   def install
     system "make", "VERSION=v1.0.0"
-    system "make", "PREFIX=\$HOMEBREW_PREFIX", "install"
+    system "make", "PREFIX=#{ENV["HOMEBREW_PREFIX"]}", "install"
   end
 
   test do
