@@ -8,8 +8,7 @@ class Restbeast < Formula
   depends_on "go@1.14" => :build
 
   def install
-    system "export", "CI_COMMIT_TAG=v1.0.0"
-    system "make"
+    system "make", "VERSION=v1.0.0"
     system "make", "install"
   end
 
