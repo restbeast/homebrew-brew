@@ -1,5 +1,5 @@
 class Restbeast < Formula
-  desc "A command line API client, an API testing tool and an easy load testing tool"
+  desc "Command-line API client, an API testing tool and an easy load testing tool"
   homepage "https://restbeast.com"
   url "https://github.com/restbeast/restbeast/archive/v1.1.0.tar.gz"
   sha256 "1af07d1517cca12e5b33d49c627a263546f608e33d8d2ba2e9834e7127b3a6b3"
