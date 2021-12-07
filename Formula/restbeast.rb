@@ -1,8 +1,8 @@
 class Restbeast < Formula
   desc "Command-line API client, an API testing tool and an easy load testing tool"
   homepage "https://restbeast.com"
-  url "https://github.com/restbeast/restbeast/archive/v1.3.0.tar.gz"
-  sha256 "aa088653f11c932acf89b0eda28f807a4a52605eeb1f78cc2162f4f8ab81a43b"
+  url "https://github.com/restbeast/restbeast/archive/v1.3.2.tar.gz"
+  sha256 "91f85bc28348b743cd2a4454577b5f46f67983c84e8c7daa5ab475f691de35e7"
   license "GPL-3.0"
 
   depends_on "go" => :build
